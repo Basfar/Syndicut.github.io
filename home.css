@@ -1,0 +1,289 @@
+body{
+    font-family: "FreightSans W01 Book",Arial;
+    background-color: #fff;
+    color: #333;
+    padding: 0 2.5rem;
+}
+header{
+    animation: movedown 1s linear 1s;
+}
+@keyframes movedown {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+h1#hp{
+    font-size: 30px;
+    font-family:"FreightSans W01 Book",Arial;
+    margin: 1.6% 2% 2% 2.9%;
+    color: #000000;
+    cursor: pointer;
+}
+h1#hp:hover{
+    color: gray;
+}
+
+.container{
+   float: right;
+   margin:-3.8% 2% 2% 4%;
+}
+.container a{
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.para p{
+    font-family: DomaineDisp-Regular,Arial;
+    font-size: 3.5vw;
+    color: #000;
+    line-height: 110%;
+    font: inherit;
+    vertical-align: baseline;
+}
+p#sub{
+    margin-top: 10%;
+    margin-left: 150px;
+    font-size: 45px;
+    animation: moveleft 3s linear 1s;
+    
+}
+@keyframes moveleft{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+p#tit{
+     margin-top: 150px;
+     margin-right: 24%;
+     text-align: right;
+     font-size: 45px;
+     animation: moveright 2s linear 1s;
+     
+}
+@keyframes moveright{
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+p#tile{
+    text-align: right;
+    font-size: 16px;
+    font-family: "FreightSans W01 Book",Arial;
+    margin-top: -3.7%;
+    margin-right: 19.7%;
+
+}
+.slash{
+    border-left: 1px solid #000000;
+    height: 290px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 150px;
+    top: 0;
+    transform: skew(-45deg);
+}
+.cont {
+    position: relative;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    color: white;
+}
+.pictures-sect {
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    animation: moveup 1s linear 1s;
+}
+@keyframes moveup{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.pictures-sect div a img, .pictures-sect video{
+    width: 100%;
+}
+footer{
+    padding: 1rem;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+footer section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.foot{
+   display: flex; 
+   font-size: 12px;
+}
+.foot a{
+    color: #fff;
+}
+.fab {
+    color: white;
+}
+.brandsect h1{
+    padding-left: 6vw;
+    font-size: 45px;
+    font-family: DomaineDisp-Regular,Arial;
+}
+#onep{
+    padding-left: 2.5rem;
+}
+.twop{
+    padding-left: 2.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.brandsect{
+    margin-bottom: 15px;
+}
+.contact-section{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.ha{
+    font-size:4.7vw ;
+}
+div p{
+    font-family: "FreightSans W01 Book",Arial;
+}
+div a{
+    color: #000;
+}
+.tip{
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+.contain{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 5%;
+}
+.form-head h1{
+    font-family: Arial;
+    font-size: 3.5vw;
+    color: #000;
+    line-height: 110%;
+    color: currentColor;
+    margin-bottom: .5em;
+}
+label{
+    font-size: 1.3vw;
+    line-height: 150%;
+    color: #fff;
+    display: block;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+.sen{
+    background-color: #fff;
+    border: solid 1px #000;
+    border-color: #fff;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 100%;
+    margin: 0;
+    padding: 13px 15px 10px 15px;
+    text-decoration: none;
+}
+
+input{
+    font-size: 1.3vw;
+    line-height: 150%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-radius: 0;
+    color: #fff;
+    line-height: 100%;
+    height: 100%;
+    outline: 0;
+    padding-bottom: 10px;
+    width: 40%;
+}
+.puf{
+    text-align: center;
+    display: flex;
+}
+.puf input{
+    display: inline-block;
+}
+input#privacy{
+    cursor: pointer;
+    float: left;
+    margin-bottom: 0;
+    min-height: 25px;
+    padding-left: 40px;
+    position: relative;
+}
+img#tea{
+    font-style: italic;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding-left: -15%;
+}
+.para{
+    margin-right: 4%;
+    text-align: justify;
+    font-family: "FreightSans W01 Book",Arial;
+    margin-top: 1.25em;
+    font-size: 16px;
+}
+p#here{
+    color: #000;
+    font-size: 25px;
+}
+section#person{
+    margin-bottom: 3%;
+}
+.career-jobs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.two{
+    margin-top: -8%;
+}
+.twoo{
+    margin-top: 30%;
+}
+.career-jobs a{
+    color: #000;
+}
